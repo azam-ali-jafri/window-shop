@@ -1,0 +1,28 @@
+.modal-dialog {
+  width: 60%;
+}
+.modal-container {
+  display: flex;
+  width: 100%;
+}
+
+.modal-avatar-preview {
+  width: 6rem;
+  height: 6rem;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.update-name-input {
+  font-size: 1rem;
+}
+
+@media (max-width: 426px) {
+  .modal-dialog {
+    width: 95%;
+  }
+  .modal-container {
+    display: flex;
+    width: 100%;
+  }
+}

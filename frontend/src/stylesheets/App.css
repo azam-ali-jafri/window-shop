@@ -1,0 +1,18 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  line-height: 1.4;
+}
+
+a {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn-success {
+  background-color: #1dab1d;
+  border-color: #1dab1d;
+}

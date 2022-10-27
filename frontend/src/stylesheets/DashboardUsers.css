@@ -1,0 +1,86 @@
+.dashboardUsers-container {
+  padding: 3rem;
+}
+
+.usersList {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.usersList-item {
+  display: flex;
+  flex: 1;
+  margin: 0.5rem 0;
+  font-size: 1.3rem;
+  align-items: center;
+}
+.usersList-attributes {
+  display: flex;
+  flex: 1;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.usersList-name {
+  flex: 0.3;
+}
+.usersList-email {
+  flex: 0.35;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 5px;
+}
+.usersList-actions {
+  display: flex;
+  flex: 0.35;
+}
+.usersList-actions button {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+.usersList-actions select {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 5px 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+
+@media (max-width: 769px) {
+  .dashboardUsers-container {
+    width: 100%;
+  }
+  .usersList-item {
+    font-size: 1rem;
+  }
+  .usersList-attributes {
+    font-size: 1.3rem;
+  }
+  .usersList-actions button {
+    margin-left: 2rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .dashboardUsers-container {
+    padding: 0.5rem;
+  }
+  .usersList-item {
+    font-size: 0.7rem;
+  }
+  .usersList-attributes {
+    font-size: 1rem;
+  }
+  .usersList-actions select {
+    padding: 5px 5px;
+  }
+  .usersList-actions button {
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+    padding: 5px;
+  }
+}

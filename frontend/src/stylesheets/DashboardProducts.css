@@ -1,0 +1,9 @@
+.dashboardProducts-container {
+    padding: 2rem;
+}
+
+@media (max-width: 426px) {
+    .dashboardProducts-container {
+        padding: 1rem 0.5rem;
+    }
+}

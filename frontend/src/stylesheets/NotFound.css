@@ -1,0 +1,18 @@
+.notfound-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20vh;
+}
+
+.notfound-container h1 {
+  font-size: 2rem;
+}
+
+@media (max-width: 426px) {
+  .notfound-container h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}

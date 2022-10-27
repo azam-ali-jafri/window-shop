@@ -1,0 +1,50 @@
+.navbar {
+  padding: 0rem 3rem;
+}
+.navbar-brand {
+  width: 5rem;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.nav-item-button {
+  font-weight: 500;
+}
+.nav-item-button svg {
+  margin-right: 0.5rem;
+}
+.dropdown-toggle::after {
+  content: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0rem 1rem;
+  }
+  .navbar-nav {
+    margin-left: 1rem;
+  }
+  .navbar-toggler {
+    margin-right: 1rem;
+  }
+  .nav-item-button {
+    width: 50%;
+  }
+}
+
+@media (max-width: 426px) {
+  .navbar {
+    padding: 0rem 0.2rem;
+    width: 100vw;
+  }
+  .navbar-nav {
+    margin-left: 1rem;
+  }
+  .navbar-toggler {
+    margin-right: 0.5rem;
+  }
+  .nav-item-button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

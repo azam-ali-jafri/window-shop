@@ -1,0 +1,157 @@
+.home-banner {
+  padding: 6rem 3rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+.home-banner h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  width: 50%;
+  margin-bottom: 0.5rem;
+}
+.home-banner span {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.banner-buttons button {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.home-products-container {
+  padding: 1rem;
+}
+.home-product-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  justify-content: center;
+  margin: auto;
+}
+.home-features-container {
+  padding: 3rem 4rem;
+  color: white;
+  margin-top: 2rem;
+}
+.home-features-container span {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.home-features-container h1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.home-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0rem;
+}
+.home-features div {
+  width: 24rem;
+  margin: 0 2rem 1rem;
+}
+.home-features svg {
+  margin-right: 0.5rem;
+}
+.home-features h2 {
+  font-size: 1.5rem;
+}
+.home-features span {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .home-banner {
+    padding: 6rem 3rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  .home-banner h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    width: 50%;
+    margin-bottom: 0.5rem;
+  }
+  .home-banner span {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .home-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 0rem;
+  }
+  .home-features div {
+    width: 90%;
+    margin: 0 2rem 1rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .home-banner {
+    padding: 3rem 1rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  .home-banner h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    width: 75%;
+    margin-bottom: 0.3rem;
+  }
+  .home-banner span {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .banner-buttons button {
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    width: 45%;
+    font-size: 0.9rem;
+  }
+  .home-products-container {
+    padding: 0.5rem;
+  }
+  .home-product-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+  }
+  .home-features-container {
+    padding: 1rem 1rem;
+    color: white;
+    margin-top: 2rem;
+  }
+  .home-features-container h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .home-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.5rem 0rem;
+  }
+  .home-features div {
+    width: 100%;
+    margin: 0 0.5rem 0.5rem;
+  }
+  .home-features svg {
+    margin-right: 0.5rem;
+  }
+  .home-features h2 {
+    font-size: 1.1rem;
+    margin-bottom: -3px;
+  }
+  .home-features span {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+}

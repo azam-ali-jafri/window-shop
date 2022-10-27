@@ -1,0 +1,149 @@
+hr {
+  margin: 0;
+}
+.productCard-container {
+  width: 20rem;
+  margin: 0.7rem;
+  display: flex;
+  flex-direction: column;
+}
+.productCard-img {
+  padding: 2rem;
+  width: 250px;
+  height: 250px;
+  align-self: center;
+}
+.productCard-img img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.productCard-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.productCard-name {
+  flex: 0.7;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+}
+.productCard-price {
+  flex: 0.2;
+  color: rgba(0, 0, 0, 0.7);
+}
+.productCard-btn {
+  margin-top: 10px;
+  width: 9rem;
+  flex: 0.1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.productCard-btn svg {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 1440px) {
+  .productCard-container {
+    width: 19rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .productCard-img {
+    padding: 2rem;
+    width: 280px;
+    height: 280px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .productCard-container {
+    width: 20rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .productCard-img {
+    padding: 2rem;
+    width: 280px;
+    height: 280px;
+    align-self: center;
+  }
+  .productCard-name {
+    font-size: 1rem;
+  }
+  .productCard-price {
+    font-size: 1rem;
+  }
+  .productCard-btn {
+    margin-top: 7px;
+    width: 9rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 426px) {
+  .productCard-container {
+    width: 10.75rem;
+    margin: 0.5rem 0.2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .productCard-body {
+    flex: 1;
+    padding: 7px;
+  }
+  .productCard-img {
+    padding: 0.75rem;
+    width: 120px;
+    height: 120px !important;
+    align-self: center;
+  }
+  .productCard-name {
+    font-size: 0.8rem;
+  }
+  .productCard-price {
+    font-size: 0.8rem;
+  }
+  .productCard-btn {
+    margin-top: 7px;
+    width: 7.75rem;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 1.75rem;
+  }
+  .productCard-btn svg {
+    margin-right: 0.2rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .productCard-container {
+    width: 9.55rem;
+  }
+  .productCard-name {
+    font-size: 0.75rem;
+  }
+  .productCard-price {
+    font-size: 0.75rem;
+  }
+  .productCard-btn {
+    margin-top: 7px;
+    width: 7.60rem;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 1.60rem;
+  }
+}

@@ -1,0 +1,238 @@
+.searchPage-container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+  margin: auto;
+}
+
+.searchPage-container button {
+  font-weight: 500;
+}
+
+.searchPage-container form input {
+  width: 35rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 0px;
+}
+.search-btn {
+  font-size: 1rem;
+}
+.searchPage-mid-container {
+  display: flex;
+  flex: 1;
+}
+.searchPage-mid-left {
+  width: 25rem;
+  margin-right: 1rem;
+}
+.show-filter-btn {
+  margin-top: 10px;
+}
+.searchPage-mid-left button {
+  width: 100%;
+}
+.searchPage-mid-right {
+  width: 80vw;
+}
+.collapse-container {
+  width: 100%;
+}
+.categories-container {
+  width: 100%;
+}
+.categories-container li {
+  cursor: pointer;
+}
+.price-filter {
+  width: 100%;
+}
+.price-filter label {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.price-filter input {
+  width: 8rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.price-slider {
+  margin-bottom: 1rem;
+}
+.searchPage-mid-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.paginationBox {
+  display: flex;
+  justify-content: center;
+  margin: 6vmax;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.pageItem {
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1.2rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+.pageItem:first-child {
+  border-radius: 5px 0 0 5px;
+}
+.pageItem:last-child {
+  border-radius: 0 5px 5px 0;
+}
+.pageLink {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #0088ff;
+  transition: all 0.3s;
+}
+.pageItem:hover {
+  background-color: #0088ff;
+}
+.pageItem:hover .pageLink {
+  color: white;
+}
+.pageItemActive {
+  background-color: #0088ff;
+}
+.pageLinkActive {
+  color: white;
+}
+
+@media (max-width: 1025px) {
+  .searchPage-container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+    margin: auto;
+  }
+
+  .searchPage-container form input {
+    width: 30rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 0px;
+  }
+  .searchPage-mid-left {
+    width: 22rem;
+  }
+  .price-filter label {
+    font-size: 0.9rem;
+  }
+  .price-filter input {
+    width: 6rem;
+    font-size: 0.9rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 769px) {
+  .searchPage-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+    margin: auto;
+  }
+  .searchPage-mid-container {
+    flex-direction: column;
+  }
+  .searchPage-mid-left {
+    width: 60%;
+    margin: auto;
+  }
+  .searchPage-mid-right {
+    width: 100%;
+    justify-content: center;
+  }
+  .searchPage-container form input {
+    width: 30rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 0px;
+  }
+  .price-filter input {
+    width: 10rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 426px) {
+  .searchPage-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    margin: auto;
+  }
+  .searchPage-container form input {
+    width: 13rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    height: 2.5rem;
+    font-size: 0.8rem;
+  }
+  .search-btn {
+    font-size: 0.9rem;
+  }
+  .searchPage-mid-container {
+    flex-direction: column;
+  }
+  .searchPage-mid-left {
+    width: 90%;
+    margin: auto;
+    padding: 0 1rem;
+  }
+  .searchPage-mid-left button {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .searchPage-mid-right {
+    width: 100%;
+    justify-content: center;
+  }
+  .price-filter label {
+    font-size: 0.8rem;
+  }
+  .price-filter input {
+    width: 5.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .categories-container {
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  .paginationBox {
+    display: flex;
+    justify-content: center;
+    margin: 6vmax;
+  }
+  .pageItem {
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    padding: 0.2rem 0.8rem;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 3rem;
+  }
+  .pageLink {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #0088ff;
+    transition: all 0.3s;
+  }
+}

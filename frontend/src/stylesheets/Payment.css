@@ -1,0 +1,59 @@
+.payment-container {
+  align-self: center;
+  margin: 2rem;
+  margin-bottom: 20vh;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 2rem 2rem;
+  border-radius: 10px;
+  width: 50%;
+}
+.cardInfo-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: -0.7rem;
+  transform: translateX(-1.5rem);
+}
+
+.stripeCard-element {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 1rem 0rem;
+  padding: 0.6rem 2.5rem;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.payment-btn {
+  width: 100%;
+  background-color: #1dab1d;
+  border-color: #1dab1d;
+  font-weight: 500;
+}
+
+@media (max-width: 769px) {
+  .payment-container {
+    width: 70%;
+  }
+  .stripeCard-element {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 1rem 0rem;
+    padding: 0.6rem 2.5rem;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 426px) {
+  .payment-container {
+    width: 95%;
+    padding: 2rem 1rem;
+  }
+  .cardInfo-input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: -0.7rem;
+    transform: translateX(-1.5rem);
+  }
+}
