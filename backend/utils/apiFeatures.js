@@ -10,7 +10,7 @@ class ApiFeatures {
       ? {
           name: {
             $regex: this.queryStr.keyword, // regular expression for finding not only the exact match but it can be partial as well
-            $options: 'i', // no case sensitive
+            $options: "i", // no case sensitive
           },
         }
       : {}
@@ -40,7 +40,7 @@ class ApiFeatures {
       : {}
 
     this.query = this.query.find(gtPriceFilter)
-    
+
     return this
   }
 

@@ -6,10 +6,7 @@ process.on("uncaughtException", (err) => {
   console.log(err.message)
 })
 
-//config
-if (process.env.NODE_ENV !== "PRODUCTION") {
-  require("dotenv").config({ path: "backend/config/config.env" })
-}
+require("dotenv").config({ path: "./config/config.env" })
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_NAME,
