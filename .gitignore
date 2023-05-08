@@ -1,14 +1,13 @@
 # dependencies
 /node_modules
 
-
 # testing
 /frontend/coverage
 
 # production
 
 # misc
-/config/congfig.env
+/backend/config/congfig.env
 
 
 npm-debug.log*
